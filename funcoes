@@ -1,0 +1,33 @@
+/*Em JavaScript, as funções são blocos de construção fundamentais. Elas são usadas para agrupar um conjunto de instruções que podem ser chamadas e executadas em qualquer lugar do seu código. As funções podem aceitar argumentos e podem retornar um valor. Aqui está uma explicação detalhada com exemplos:*/
+
+
+//Exemplo 1: Função Simples
+function saudacao(nome) {
+  return "Olá, " + nome + "!";
+}
+
+console.log(saudacao("Fabricio")); // Saída: Olá, João!
+
+//Exemplo 2: Função sem Retorno
+
+function imprimirNumero(num) {
+  console.log("O número é: " + num);
+}
+
+imprimirNumero(10); // Saída: O número é: 10
+
+//Exemplo 3: Função com Múltiplos Argumentos
+
+function soma(a, b) {
+  return a + b;
+}
+
+console.log(soma(5, 3)); // Saída: 8
+
+//Exemplo 4: Função Anônima (atribuída a uma variável)
+let quadrado = function(x) {
+  return x * x;
+};
+
+console.log(quadrado(8)); // Saída: 64 // teste
+
